@@ -1,5 +1,7 @@
 # ruby-vips : A fast image processing extension for Ruby.
 
+* This is a fork, just to tag and mark versions, [original repository](https://github.com/jcupitt/ruby-vips) *
+
 [![Build Status](https://secure.travis-ci.org/jcupitt/ruby-vips.png)](http://travis-ci.org/jcupitt/ruby-vips)
 
 ruby-vips is a ruby extension for [vips](http://www.vips.ecs.soton.ac.uk). 
