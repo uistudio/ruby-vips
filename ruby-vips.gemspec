@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "ruby-vips"
-  s.version = "0.3.9"
+  s.version = "0.3.11"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Timothy Elliott", "John Cupitt"]
-  s.date = "2014-07-17"
-  s.description = "Ruby extension for the vips image processing library."
+  s.date = "2015-11-16"
+  s.description = "(UI Studio's fork) Ruby extension for the vips image processing library."
   s.email = "jcupitt@gmail.com"
   s.extensions = ["ext/extconf.rb"]
   s.extra_rdoc_files = [
@@ -67,7 +67,7 @@ Gem::Specification.new do |s|
     "ruby-vips.gemspec",
     "ruby.supp"
   ]
-  s.homepage = "http://github.com/jcupitt/ruby-vips"
+  s.homepage = "https://github.com/uistudio/ruby-vips"
   s.licenses = ["MIT"]
   s.rdoc_options = ["--title", "ruby-vips \#{version}", "ext"]
   s.require_paths = ["lib"]
