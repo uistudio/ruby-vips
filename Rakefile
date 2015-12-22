@@ -22,15 +22,15 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
 
   gem.name = "ruby-vips"
-  gem.homepage = "http://github.com/jcupitt/ruby-vips"
+  gem.homepage = "http://github.com/uistudio/ruby-vips"
   gem.license = "MIT"
   
   gem.summary = %Q{ruby-vips is a ruby extension for vips. It is extremely fast and it can process huge images without requiring the entire image to be loaded into memory.}
   
-  gem.description = %Q{Ruby extension for the vips image processing library.}
+  gem.description = %Q{(UI Studio's fork) Ruby extension for the vips image processing library.}
   
-  gem.email = "jcupitt@gmail.com"
-  gem.authors = ["Timothy Elliott", "John Cupitt"]
+  gem.email = "dev@uistudio.co.jp"
+  gem.authors = ["Timothy Elliott", "John Cupitt", "UI Studio"]
 
   gem.version = VIPS::VERSION
   
