@@ -51,6 +51,23 @@ latest libvips you can.
 
 ## Installation prerequisites
 
+### Debian (with vips 8.2.0 + imagemagick detailed instructions)
+
+```bash
+$ apt-get install libpq-dev libmagick++-dev libpng12-dev libjpeg-dev libgsf-1-dev libgsf-1-114 libgsf-1-common libgsf-bin
+$ wget "http://www.vips.ecs.soton.ac.uk/development/vips-8.2.0.tar.gz"
+$ tar -xzvf vips-8.2.0.tar.gz
+$ cd vips-8.2.0
+$ ./configure --disable-gtk-doc --with-magickpackage=ImageMagick
+$ make
+$ sudo make install
+$ sudo ldconfig /usr/local/lib
+$ cd my/project
+$ echo "gem 'ruby-vips', git: 'https://github.com/uistudio/ruby-vips.git', tag: 'v0.3.12'" >> Gemfile
+$ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig:/usr/X11/lib/pkgconfig
+$ bundle install
+```
+
 ### Ubuntu 
 
 ```bash
